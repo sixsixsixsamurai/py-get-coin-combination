@@ -16,7 +16,8 @@ from app.main import get_coin_combination
     pytest.param(31, [1, 1, 0, 1],
                  id="test should return 1 penny, 1 nickel and 1 quarters"),
     pytest.param(41, [1, 1, 1, 1],
-                 id="test should return 1 penny, 1 nickel, 1 dimes and 1 quarters"),
+                 id="test should return 1 penny,"
+                    " 1 nickel, 1 dimes and 1 quarters"),
 
 ]
 )
